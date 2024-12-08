@@ -28,7 +28,7 @@ local function CreatePlayerTag(plr)
 
     local nameLabel = Instance.new("TextLabel")
     nameLabel.Size = UDim2.new(1, 0, 0.5, 0)
-    nameLabel.Position = UDim2.new(0, 0, 0.1, 0)
+    nameLabel.Position = UDim2.new(0, 0, 1.5, 0)
     nameLabel.Text = plr.Name
     nameLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
     nameLabel.TextStrokeTransparency = 0.8
